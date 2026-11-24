@@ -30,7 +30,8 @@
           "size": 378,
           "sha256": "a0ea42427e7c2b486bf158c1f0b64b6019ed33fb584c12ae65657a080ac915dc"
         }
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "habitudes",
@@ -58,7 +59,8 @@
           "size": 481,
           "sha256": "b41a76900704a129182e535298d3d4e981895f8dda076fde735d5d088c45dd7d"
         }
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "jours-j",
@@ -86,7 +88,8 @@
           "size": 305,
           "sha256": "fbf6f0fbc6a5c2b8e48961bffdcc1a44fb8147a4512ceb7c3bfc14f7d503f327"
         }
-      ]
+      ],
+      "verified": true
     }
   ]
 }
