@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "updated": "2026-11-24",
+  "modules": [
+    {
+      "id": "devises",
+      "name": "Devises",
+      "version": "1.0.0",
+      "author": "Vigie",
+      "description": "Convertisseur de devises aux taux du jour de la Banque centrale européenne.",
+      "icon": "currency-circle-dollar",
+      "api": 1,
+      "permissions": {
+        "notify": false,
+        "clipboard": false,
+        "open": false,
+        "net": [
+          "api.frankfurter.dev"
+        ]
+      },
+      "base": "modules/devises/1.0.0/",
+      "files": [
+        {
+          "path": "main.rhai",
+          "size": 4921,
+          "sha256": "9e21cb577d9d4a2004f4d1507318383ff71324f861d3123d280cb0ecf9d71a7e"
+        },
+        {
+          "path": "module.toml",
+          "size": 378,
+          "sha256": "a0ea42427e7c2b486bf158c1f0b64b6019ed33fb584c12ae65657a080ac915dc"
+        }
+      ]
+    },
+    {
+      "id": "habitudes",
+      "name": "Habitudes",
+      "version": "1.0.0",
+      "author": "Vigie",
+      "description": "Coche tes habitudes du jour, suis tes séries et reçois un rappel le soir.",
+      "icon": "list-checks",
+      "api": 1,
+      "permissions": {
+        "notify": true,
+        "clipboard": true,
+        "open": false,
+        "net": []
+      },
+      "base": "modules/habitudes/1.0.0/",
+      "files": [
+        {
+          "path": "main.rhai",
+          "size": 8897,
+          "sha256": "c8e3a8d7c73b17d479ff52adc3e7716b53c1266f6925ccc64dc6222d104ff0f4"
+        },
+        {
+          "path": "module.toml",
+          "size": 481,
+          "sha256": "b41a76900704a129182e535298d3d4e981895f8dda076fde735d5d088c45dd7d"
+        }
+      ]
+    },
+    {
+      "id": "jours-j",
+      "name": "Jours J",
+      "version": "1.0.0",
+      "author": "Vigie",
+      "description": "Compte à rebours de tes dates importantes, le plus proche dans l'îlot.",
+      "icon": "calendar-star",
+      "api": 1,
+      "permissions": {
+        "notify": false,
+        "clipboard": false,
+        "open": false,
+        "net": []
+      },
+      "base": "modules/jours-j/1.0.0/",
+      "files": [
+        {
+          "path": "main.rhai",
+          "size": 4892,
+          "sha256": "f5dbe6f8ceade733ad95ab69e4c7ee396a625372e34f9e9f7674e4b35b918ab6"
+        },
+        {
+          "path": "module.toml",
+          "size": 305,
+          "sha256": "fbf6f0fbc6a5c2b8e48961bffdcc1a44fb8147a4512ceb7c3bfc14f7d503f327"
+        }
+      ]
+    }
+  ]
+}

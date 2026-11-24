@@ -1,0 +1,10 @@
+id = "jours-j"
+name = "Jours J"
+version = "1.0.0"
+author = "Vigie"
+description = "Compte à rebours de tes dates importantes, le plus proche dans l'îlot."
+api = 1
+icon = "calendar-star"
+# Toutes les heures : passage au jour suivant.
+tick = 3600
+# Aucune permission : ce module ne sort pas de son onglet.

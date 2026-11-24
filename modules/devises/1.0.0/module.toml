@@ -1,0 +1,12 @@
+id = "devises"
+name = "Devises"
+version = "1.0.0"
+author = "Vigie"
+description = "Convertisseur de devises aux taux du jour de la Banque centrale européenne."
+api = 1
+icon = "currency-circle-dollar"
+# Taux relus toutes les 30 minutes (la BCE les publie une fois par jour ouvré).
+tick = 1800
+
+[permissions]
+net = ["api.frankfurter.dev"]   # taux de la BCE, sans compte ni clé

@@ -1,0 +1,15 @@
+# Module de démonstration de l'API Vigie v1 — voir docs/modules.md.
+id = "habitudes"
+name = "Habitudes"
+version = "1.0.0"
+author = "Vigie"
+description = "Coche tes habitudes du jour, suis tes séries et reçois un rappel le soir."
+api = 1
+icon = "list-checks"
+entry = "main.rhai"
+# tick() est appelé chaque minute : changement de jour, rappel du soir.
+tick = 60
+
+[permissions]
+notify = true      # rappel du soir dans l'îlot
+clipboard = true   # « Copier le bilan du jour »
